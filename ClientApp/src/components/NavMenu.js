@@ -8,7 +8,7 @@ export default props => (
   <Navbar inverse fixedTop fluid collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <Link to={'/'}>net_core_react_starter_app</Link>
+        <Link to={'/'}>Starter App</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

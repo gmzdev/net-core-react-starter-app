@@ -11,11 +11,18 @@
     color: white;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background: #000000;
+    border-top: 1px solid #444;
+}
+
+
 @media (min-width: 768px) {
     /* On large screens, convert the nav menu to a vertical sidebar */
     .navbar {
         height: 100%;
         width: calc(25% - 20px);
+        background: #000000;
     }
     .navbar {
         border-radius: 0;

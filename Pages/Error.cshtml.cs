@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace net_core_react_starter_app.Pages
+namespace NetCoreReactStarterApp.Pages
 {
     public class ErrorModel : PageModel
     {

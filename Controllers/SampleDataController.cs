@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace net_core_react_starter_app.Controllers
+namespace NetCoreReactStarterApp.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller

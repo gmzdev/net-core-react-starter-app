@@ -1,6 +1,59 @@
-@media (max-width: 767px) {
-    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
-    body {
-        padding-top: 50px;
+body{
+    font-family: "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+    color: #000000;
+  }
+  
+  .navbar-inverse .navbar-brand{
+    color: #FFFFFF;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-header{
+      background-color: #000000;
+      color: #FFFFFF;
     }
-}
+    .navbar-inverse .navbar-toggle{
+      background-color: #000000;
+      border-color: #000000;
+      color: #FFFFFF;
+    }
+  
+    body {
+      margin: 0;
+      padding-top: 50px;
+    }
+  }
+  
+  @font-face {
+    font-family: "winjs-symbols";
+    src: url("./fonts/glyphs/winjs-symbols.eot");
+    src: url("./fonts/glyphs/winjs-symbols.eot#iefix") format("embedded-opentype"), url("./fonts/glyphs/winjs-symbols.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "Selawik";
+    src: url("./fonts/selawk.eot");
+    src: url("./fonts/selawk.eot#iefix") format("embedded-opentype"), url("./fonts/selawk.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "Selawik Bold";
+    src: url("./fonts/selawkb.eot");
+    src: url("./fonts/selawkb.eot#iefix") format("embedded-opentype"), url("./fonts/selawkb.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "Selawik Light";
+    src: url("./fonts/selawkl.eot");
+    src: url("./fonts/selawkl.eot#iefix") format("embedded-opentype"), url("./fonts/selawkl.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "Selawik Semibold";
+    src: url("./fonts/selawksb.eot");
+    src: url("./fonts/selawksb.eot#iefix") format("embedded-opentype"), url("./fonts/selawksb.ttf") format("truetype"); }
+  
+  @font-face {
+    font-family: "Selawik Semilight";
+    src: url("./fonts/selawksl.eot");
+    src: url("./fonts/selawksl.eot#iefix") format("embedded-opentype"), url("./fonts/selawksl.ttf") format("truetype"); }
